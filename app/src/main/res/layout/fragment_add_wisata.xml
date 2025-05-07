@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Nama Wisata">
+        android:hint="@string/hint_nama_wisata">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etNama"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Lokasi">
+        android:hint="@string/hint_lokasi">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etLokasi"
@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Deskripsi">
+        android:hint="@string/hint_deskripsi">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDeskripsi"
@@ -52,6 +52,6 @@
         android:id="@+id/btnSimpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Simpan" />
+        android:text="@string/btn_simpan" />
 
 </LinearLayout> 

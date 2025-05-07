@@ -1,3 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WisataIndonesia</string>
+    <string name="app_name">Wisata Indonesia</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_add">Tambah Wisata</string>
+    <string name="nav_profile">Profil</string>
+    
+    <!-- Add Wisata Form -->
+    <string name="hint_nama_wisata">Nama Wisata</string>
+    <string name="hint_lokasi">Lokasi</string>
+    <string name="hint_deskripsi">Deskripsi</string>
+    <string name="btn_simpan">Simpan</string>
+    
+    <!-- Profile -->
+    <string name="profile_name">Fadel Muhamad Rifai</string>
+    <string name="profile_email">411221027</string>
+    <string name="profile_image_description">Foto Profil</string>
+    
+    <!-- Validation Messages -->
+    <string name="error_nama_required">Nama wisata harus diisi</string>
+    <string name="error_lokasi_required">Lokasi harus diisi</string>
+    <string name="error_deskripsi_required">Deskripsi harus diisi</string>
+    
+    <!-- Success Messages -->
+    <string name="success_add_wisata">Wisata berhasil ditambahkan</string>
+    
+    <!-- Error Messages -->
+    <string name="error_load_image">Gagal memuat gambar: %1$s</string>
+    <string name="error_no_image">Tidak ada gambar yang ditemukan</string>
 </resources>

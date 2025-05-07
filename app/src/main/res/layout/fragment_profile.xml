@@ -7,16 +7,19 @@
     android:gravity="center">
 
     <ImageView
+        android:id="@+id/ivProfile"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@android:drawable/ic_menu_myplaces"
-        android:layout_marginBottom="24dp" />
+        android:src="@drawable/default_profile"
+        android:contentDescription="@string/profile_image_description"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/tvNama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
+        android:text="@string/profile_name"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp" />
 
@@ -24,7 +27,7 @@
         android:id="@+id/tvEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="#757575" />
+        android:text="@string/profile_email"
+        android:textSize="16sp" />
 
 </LinearLayout> 

@@ -32,16 +32,9 @@ class MainActivity : AppCompatActivity() {
     private fun addSampleData() {
         wisataList.add(
             Wisata(
-                "Bali",
-                "Pulau Bali",
-                "Pulau Bali adalah sebuah pulau di Indonesia yang dikenal karena memiliki pegunungan berapi yang hijau, terasering padi yang unik, pantai, dan terumbu karang yang cantik."
-            )
-        )
-        wisataList.add(
-            Wisata(
-                "Borobudur",
-                "Magelang, Jawa Tengah",
-                "Candi Borobudur adalah candi Buddha terbesar di dunia yang dibangun pada abad ke-8."
+                "Candi Prambanan",
+                "Daerah istimewa Yogyakarta",
+                "Candi Prambanan (bahasa Jawa: ꦕꦟ꧀ꦝꦶꦥꦿꦩ꧀ꦧꦤꦤ꧀, translit. Caṇḍi Prambanan) adalah bangunan candi bercorak agama Hindu terbesar di Indonesia yang dibangun pada abad ke-9 Masehi. Candi yang juga disebut sebagai Rara Jonggrang ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu dewa Brahma sebagai dewa pencipta, dewa Wisnu sebagai dewa pemelihara, dan dewa Siwa sebagai dewa pemusnah."
             )
         )
     }

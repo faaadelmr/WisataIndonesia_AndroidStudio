@@ -26,8 +26,7 @@ class ProfileFragment : Fragment() {
         tvNama = view.findViewById(R.id.tvNama)
         tvEmail = view.findViewById(R.id.tvEmail)
 
-        // Set static profile information
-        tvNama.text = "Fadel Muhamad Rifai"
-        tvEmail.text = "411221027"
+        tvNama.setText(R.string.profile_name)
+        tvEmail.setText(R.string.profile_email)
     }
 } 
